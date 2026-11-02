@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Adaptive-icon XML must live in a -v26 folder or AAPT2 fails to link,
+         so lint's "merge into mipmap-anydpi" advice would break the build. -->
+    <issue id="ObsoleteSdkInt">
+        <ignore path="src/main/res/mipmap-anydpi-v26" />
+    </issue>
+</lint>

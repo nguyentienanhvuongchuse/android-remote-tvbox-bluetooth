@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+.vscode/
+
+# Android / native build
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystores & signing
+*.jks
+*.keystore
+
+# Logs
+*.log
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kotlin
+.kotlin/
